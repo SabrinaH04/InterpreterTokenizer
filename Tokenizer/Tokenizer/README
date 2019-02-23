@@ -1,0 +1,17 @@
+README
+Sabrina Halkiu.2
+
+
+To run: navigate to *\Tokenizer\bin and type:
+
+	java TokenizerPackage.Tokenizer "file path"
+	
+	example: java TokenizerPackage.Tokenizer "C:\Users\user\Desktop\test.txt"
+	
+To run with test program 1:
+	
+	java TokenizerPackage.Tokenizer "test program1"
+
+To run with test program 2:
+
+	java TokenizerPackage.Tokenizer "test program2"

@@ -1,0 +1,48 @@
+Documentation:
+    The Interpreter package contains:
+        Main class: The Main class for the package. It is repsonsible
+        for reading in files and calling methods from the other two
+        classes.
+        Tokenizer: The tokenizer for the project. It takes in a file and outputs
+        a LinkedList of valid CORE tokens.
+        ParsePrintExecute: This contains all classes (nodes) for the Object-
+        Oriented Parse Tree. It Parses a LinkedList of tokens into an abstract
+        parse tree, prints them out, and executes the CORE program.
+=======================================================================
+To run from command line: navigate to *\Interpreter\bin and type:
+
+    java Main "file path 1" "file path 2"
+    
+    example: java Main "C:\Users\user\Desktop\test.txt" "C:\Users\user\Desktop\data.txt"
+    
+To run with test program 1:
+    
+    java Main "test program1" "test data1"
+
+To run with test program 2:
+
+    java Main "test program2" "test data2"
+    
+====================================================================
+
+To run from Eclipse:
+    Import project into Eclipse, run, then type in file paths for the test
+    program and data, when prompted. 
+        
+        example: to run test program1, type in:
+            Z:\workspace\Interpreter\src\test program1
+        and then:
+            Z:\workspace\Interpreter\src\test data1
+========================================================================
+Testing:
+    The Parse section was tested by changing the test programs to various
+    CORE programs, and ensuring they either parsed the correct programs or
+    rejected the incorrect ones. The Print section was tested alongside the
+    Parser to ensure it was parsing correctly.
+    The Execute section was tested using the three given test programs. All
+    three work correctly.
+    
+    There are no known bugs.
+    
+    
+    

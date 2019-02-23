@@ -1,0 +1,46 @@
+README
+Sabrina Halkiu.2
+
+Files submitted:
+    Interpreter package: an eclipse package, containing:
+        Main.java: The file containing the main class
+        Tokenizer.java: The class responsible for tokenizing 
+        ParsePrintExecute.java: The class responsible for parsing, printing, 
+        and executing the CORE program.
+        test program1-3: 3 test programs, with examples
+        test data1-3: 3 data files, corresponding to the test programs
+        Documentation: a txt file containing descriptions of the code, as
+        well as instructions to run it and testing.
+        README: this file.
+=========================================================================
+This is a tokenizer, parser, printer, and executor 
+for the CORE programming language. It will take in a 
+CORE program in the form of a txt file,and a set of data in a txt file,
+ then tokenize, parse, print, and execute the CORE program. It will output
+ the CORE program and the results of executing the program.
+=========================================================================
+To run from command line: navigate to *\Interpreter\bin and type:
+
+    java Main "file path 1" "file path 2"
+    
+    example: java Main "C:\Users\user\Desktop\test.txt" "C:\Users\user\Desktop\data.txt"
+    
+To run with test program 1:
+    
+    java Main "test program1" "test data1"
+
+To run with test program 2:
+
+    java Main "test program2" "test data2"
+    
+====================================================================
+
+To run from Eclipse:
+    Import project into Eclipse, run, then type in file paths for the test
+    program and data, when prompted. 
+        
+        example: to run test program1, type in:
+            Z:\workspace\Interpreter\src\test program1
+        and then:
+            Z:\workspace\Interpreter\src\test data1
+========================================================================
